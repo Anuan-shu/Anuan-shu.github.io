@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>test</title>
+      <link href="/2024/09/24/test/"/>
+      <url>/2024/09/24/test/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Lab-01-Assignment"><a href="#Lab-01-Assignment" class="headerlink" title="Lab 01 Assignment"></a>Lab 01 Assignment</h1><blockquote><p>班级：232115</p></blockquote><blockquote><p>学号：23371234</p></blockquote><blockquote><p>姓名：杨陆海</p></blockquote><h2 id="Question-01"><a href="#Question-01" class="headerlink" title="Question 01"></a>Question 01</h2><p>运行时截图</p><p><img src="F:\JavaClassHomework\Lab01\1.png"></p><h2 id="Question-02"><a href="#Question-02" class="headerlink" title="Question 02"></a>Question 02</h2><table><thead><tr><th align="center">基本类型</th><th align="center">默认值</th><th align="center">基本类型</th><th align="center">默认值</th></tr></thead><tbody><tr><td align="center">byte</td><td align="center">0</td><td align="center">boolean</td><td align="center">false</td></tr><tr><td align="center">short</td><td align="center">0</td><td align="center">char</td><td align="center">null</td></tr><tr><td align="center">int</td><td align="center">0</td><td align="center">float</td><td align="center">0.0</td></tr><tr><td align="center">long</td><td align="center">0</td><td align="center">double</td><td align="center">0.0</td></tr></tbody></table><p>相关代码见<code>\solution\Question 2</code>目录下的<code>q2.java</code>。</p><h2 id="Question-03"><a href="#Question-03" class="headerlink" title="Question 03"></a>Question 03</h2><p>结果截图</p><img src="F:\JavaClassHomework\Lab01\3.png"/><p>相关代码见<code>\solution\Question 3</code>目录下的<code>FindMinMax.java</code>。</p><h2 id="Question-04"><a href="#Question-04" class="headerlink" title="Question 04"></a>Question 04</h2><p>程序输出截图如下</p><p><img src="F:\JavaClassHomework\Lab01\4.png"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">boolean</span> <span class="variable">b</span> <span class="operator">=</span> test1(<span class="number">0</span>) &amp;&amp; test2(<span class="number">2</span>) &amp;&amp; test3(<span class="number">2</span>);</span><br><span class="line">        print(<span class="string">&quot;b is &quot;</span> + b);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>首先调用<code>test1</code>    <code>test1(0)</code>的返回值为<code>true</code></p><p>然后调用<code>test2</code>    <code>test2(2)</code>的返回值为<code>false</code></p><p><strong>由于<code>test2(2)</code>返回值为<code>false</code></strong>  所以 <code>&amp;&amp;</code>后连接的<code>test3(2)</code>不会再执行</p><p><code>b</code>的值为<code>false</code>  输出<code>b is false</code></p><h2 id="Question-05"><a href="#Question-05" class="headerlink" title="Question 05"></a>Question 05</h2><ol><li><p>源文件名为：<code>Student.java</code></p></li><li><p>生成<strong>两个字节码</strong>，分别为<code>Exam</code> <code>Student</code></p></li><li><p>执行<code>java Student</code> 错误提示：</p><blockquote><p>​在类 <code>Student</code> 中找不到 <code>main</code> 方法, 请将<code>main</code>方法定义为:<code> public static void main(String[] args)</code></p></blockquote></li><li><p>执行<code>java exam</code>     错误提示：</p><blockquote><p>​找不到或无法加载主类 exam</p></blockquote></li><li><p>执行<code>java Exam.class</code> 错误提示：</p><blockquote><p>​找不到或无法加载主类 Exam.class</p></blockquote></li><li><p>执行<code>java Exam</code>      输出结果：</p><blockquote><p>​I am studying Java.</p></blockquote></li></ol><h2 id="Question-06"><a href="#Question-06" class="headerlink" title="Question 06"></a>Question 06</h2><p>运行结果</p><p><img src="/../../../JavaClassHomework/Lab01/6.png"></p><p>相关代码见<code>\solution\Question 6</code>目录下的<code>TwoDimensionArray.java</code>。</p><h2 id="Question-07"><a href="#Question-07" class="headerlink" title="Question 07"></a>Question 07</h2><ul><li>结果：<strong>Jeep好好</strong></li><li><code>i=1</code>时 执行<code>case 1</code> 因为<code>case 1</code>中<strong>没有<code>break</code>语句</strong>，在输出<code>J</code>后继续进入<code>case 2</code>中输出<code>e</code>，之后遇到<code>break</code>退出<code>switch</code></li><li><code>i=2</code>时 执行<code>case 2</code> 输出<code>e</code>，之后遇到<code>break</code>退出<code>switch</code></li><li><code>i=3</code>时 执行<code>case 3</code> 输出<code>p</code>，再执行<code>default</code>输出<code>好</code></li><li><code>i=4</code>时 执行<code>default</code>输出<code>好</code></li></ul><h2 id="Question-08"><a href="#Question-08" class="headerlink" title="Question 08"></a>Question 08</h2><p>运行结果</p><p><img src="/../../../JavaClassHomework/Lab01/8.png"></p><p>相关代码见<code>\solution\Question 8</code>目录下的<code>q8.java</code>。</p><h2 id="Question-09"><a href="#Question-09" class="headerlink" title="Question 09"></a>Question 09</h2><p>相关代码见<code>\solution\Question 9</code>目录下的<code>q9.java</code>。</p><h2 id="Question-10"><a href="#Question-10" class="headerlink" title="Question 10"></a>Question 10</h2><ol><li><p>输出内容</p><ol><li><code>p1</code> 的 <code>x</code>, <code>y</code> 坐标: <code>1111, 2222</code></li><li><code>p2</code> 的 <code>x</code>, <code>y</code> 坐标: <code>-100, -200</code></li><li><code>p1</code> 的 <code>x</code>, <code>y</code> 坐标: <code>0, 0</code></li><li><code>p2</code> 的 <code>x</code>, <code>y</code> 坐标: <code>0, 0</code></li></ol></li><li><p>浅拷贝与深拷贝</p><ol><li>浅拷贝：对象的浅拷贝会对“主”对象进行拷贝，但<strong>不会复制主对象里面的引用类型成员变量</strong>。</li><li>深拷贝：深拷贝是一个整个独立的对象拷贝，深拷贝会拷贝所有的属性<strong>在内存中生成一个新的对象</strong>。</li></ol></li><li><p>确保进行的是深拷贝</p><ol><li>实现<code>Cloneable</code>接口并重写<code>clone()</code>方法。</li><li>在<code>clone()</code>方法中，对<strong>引用类型的变量</strong>手动进行深拷贝。</li></ol></li><li><p>解释<code>String</code>的 <code>==</code> 和 <code>equals()</code> 的区别</p><ol><li><code>==</code>是比较两个对象的<strong>地址</strong>是否相同。</li><li><code>equals()</code>是比较两个对象的<strong>内容</strong>是否相同。</li></ol></li></ol><h2 id="Question-11"><a href="#Question-11" class="headerlink" title="Question 11"></a>Question 11</h2><p>测试截图</p><p><img src="/../../../JavaClassHomework/Lab01/11.png"></p><ol><li><p>可变参数实现机制</p><p>基于数组实现：<strong>当使用可变参数的时候，实际上是先创建了一个数组，该数组的大小就是可变参数的个数，然后将参数放入数组当中，再将数组传递给被调用的方法</strong>。</p></li><li><p>调用 <code>strscat(new String[]&#123;&quot;a&quot;, &quot;b&quot;&#125;)</code> 能通过编译吗，为什么？</p><p>可以。变长参数在编译为字节码后，在方法签名中就是以<strong>数组形态</strong>出现的。</p></li><li><p>静态方法 <code>String strscat(String[] args)</code> 同时存在</p><p>不能编译</p><img src="../../../JavaClassHomework/Lab01/11-2.png" style="zoom:100%;" /></li><li><p>声明的是 <code>String strscat(String[] args)</code></p><p>不能通过编译</p><p><img src="/../../../JavaClassHomework/Lab01/11-3.png"></p></li></ol><h2 id="Question-12"><a href="#Question-12" class="headerlink" title="Question 12"></a>Question 12</h2><p>运行结果</p><p><img src="/../../../JavaClassHomework/Lab01/12.png"></p><p>相关代码见<code>\solution\Question 12</code>目录下的<code>BigNumberAddition.java</code>。</p><h2 id="Question-13"><a href="#Question-13" class="headerlink" title="Question 13"></a>Question 13</h2><p>相关代码见<code>\solution\Question 13</code>目录下的<code>Buyer.java</code>和<code>Cook.java</code>和<code>test.java</code>。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/09/24/hello-world/"/>
+      <url>/2024/09/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>testt</title>
+      <link href="/testt/index.html"/>
+      <url>/testt/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
