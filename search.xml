@@ -79,6 +79,31 @@
     
     
     <entry>
+      <title>Lab02</title>
+      <link href="/2024/09/24/Lab02/"/>
+      <url>/2024/09/24/Lab02/</url>
+      
+        <content type="html"><![CDATA[<h1 id="lab02">Lab02</h1><blockquote><p>班级：232115</p></blockquote><blockquote><p>学号：23371234</p></blockquote><blockquote><p>姓名：杨陆海</p></blockquote><h2 id="question-01">Question 01</h2><p><img src="q1-2.png" alt=""></p><ol><li><p><code>m</code>未被初始化；</p></li><li><p><code>m</code>需要被初始化才能使用，<code>x</code>为<strong>成员变量</strong>，具有默认值，<code>m</code>为<strong>局部变量</strong>没有默认值；</p></li></ol><h2 id="question-02">Question 02</h2><p>**d.**类有两个构造方法，类中已经定义了两个有参构造方法，此时无参构造方法需要显示定义。</p><h2 id="question-03">Question 03</h2><h5 id="输出">输出</h5><ol><li><code>initialize A1</code></li><li><code>initialize A2</code></li><li><code>initialize A3</code></li><li><code>initialize A4</code></li><li><code>initialize A5</code></li><li><code>initialize A6</code></li><li><code>copy from A6</code></li><li><code>initialize B1</code></li><li><code>initialize A8</code></li><li><code>main begins</code></li><li><code>initialize A9</code></li><li><code>initialize A6</code></li><li><code>copy from A6</code></li><li><code>initialize B2</code></li><li><code>initialize A8</code></li><li><code>main ends</code></li></ol><h5 id="分析">分析</h5><ul><li>静态变量和静态代码块按声明顺序初始化；</li><li>实例变量在构造函数之前初始化；</li><li><code>main</code>方法中的局部变量按顺序初始化；</li></ul><h2 id="question-04">Question 04</h2><ol><li>可以，因为每次创建<code>B</code>类型对象都是先输出的<code>initialize A6</code>和<code>copy from A6</code>再输出的<code>initialize A8</code>；</li><li>可以，每次创建<code>B</code>类型对象都是先输出的<code>initialize A6</code>再输出<code>copy from A6</code>；</li></ol><h2 id="question-05">Question 05</h2><h5 id="静态属性初始化方式">静态属性初始化方式</h5><ul><li>在属性定义处显示初始化（如本例中的<code>a1</code>）；</li><li>在静态代码块中初始化(如本例中的<code>a4</code>)；</li></ul><h5 id="静态属性初始化顺序">静态属性初始化顺序</h5><ul><li>按照声明的顺序初始化；</li></ul><h2 id="question-06">Question 06</h2><ol><li>不可以说明<strong>吧</strong>，在<code>static A a1 = new A(1);static A a1 = new A(1);</code>后添加；</li></ol><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Class A is loaded&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="2"><li><ul><li>带有<code>static</code>关键字的方法、变量、代码块：其他带有<code>static</code>关键字的方法、变量、代码块；</li><li>不带有<code>static</code>关键字的方法、变量、代码块：都可以 ；</li></ul></li></ol><h2 id="question-07">Question 07</h2><p>不可以</p><h2 id="question-08">Question 08</h2><ul><li>其构造函数被<code>private</code>修饰，外部类无法直接通过<code>new</code>来创建；</li><li>被<code>static</code>修饰<code>uniqueInstance</code>在内存中只有一份；</li><li>被<code>final</code>修饰初始化之后<code>uniqueInstance</code>的指向不变；</li><li>在该类被加载的时候创建；</li></ul><h2 id="question-09">Question 09</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">test</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Singleton</span> <span class="variable">SingletonInstance</span> <span class="operator">=</span> Singleton.getInstance();</span><br><span class="line">        SingletonInstance.foo();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="question-10">Question 10</h2><p>相关代码见<code>\solution\Question10</code></p><h2 id="question-11">Question 11</h2><p>相关代码见<code>\solution\Question11</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Homework </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2024/09/24/hello-world/"/>
       <url>/2024/09/24/hello-world/</url>
