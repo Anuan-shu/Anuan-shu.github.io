@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>线程同步</title>
+      <link href="/2024/11/09/%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5/"/>
+      <url>/2024/11/09/%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java线程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图中的最短路径问题</title>
       <link href="/2024/11/05/%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98/"/>
       <url>/2024/11/05/%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98/</url>
@@ -289,31 +314,6 @@
       <categories>
           
           <category> Homework </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Lab04</title>
-      <link href="/2024/10/26/test/"/>
-      <url>/2024/10/26/test/</url>
-      
-        <content type="html"><![CDATA[<p>aa</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java </category>
           
       </categories>
       
